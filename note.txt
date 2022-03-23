@@ -1,0 +1,47 @@
+snapflexsqlserver_admin
+
+sWq*75AMm
+
+
+
+
+mysql -h snapflexsqlserver.mysql.database.azure.com -u snapflexsqlserver_admin -p testconnect --ssl-mode=REQUIRED --ssl-ca=DigiCertGlobalRootCA.crt.pem < pollsdb.sql
+
+mysql -h snapflexsqlserver.mysql.database.azure.com -u snapflexsqlserver_admin -p testconnect < pollsdb.sql
+
+mysql.exe -h snapflexsqlserver.mysql.database.azure.com -u snapflexsqlserver_admin -p --ssl-mode=DISABLED
+
+mysql -h mydemoserver.mysql.database.azure.com -u myadmin -p --ssl-mode=REQUIRED
+
+
+
+taamhhvhmx
+
+E7HHMN348V848DA8*
+
+mysql -h lionsnap-server.mysql.database.azure.com -u taamhhvhmx -p --ssl=true
+
+
+
+CREATE TABLE Colors(
+    ColorID int,
+    Name varchar(255)
+);
+
+INSERT INTO Colors (Name)
+VALUES ('Yellow');
+
+SELECT * FROM Colors;
+
+
+
+
+demo-server.mysql.database.azure.com
+
+demoserveradmin
+
+sWq*75AMm
+
+
+sudo apt install php-mysqli
+
