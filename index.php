@@ -76,13 +76,13 @@ while ($row = mysqli_fetch_assoc($res))
 
 
 //Run the Delete statement
-// $product_name = 'BrandNewProduct';
-// if ($stmt = mysqli_prepare($conn, "DELETE FROM Products WHERE ProductName = ?")) {
-// mysqli_stmt_bind_param($stmt, 's', $product_name);
-// mysqli_stmt_execute($stmt);
-// printf("Delete: Affected %d rows\n", mysqli_stmt_affected_rows($stmt));
-// mysqli_stmt_close($stmt);
-// }
+$product_name = 'BrandNewProduct';
+if ($stmt = mysqli_prepare($conn, "DELETE FROM Products WHERE ProductName = ?")) {
+mysqli_stmt_bind_param($stmt, 's', $product_name);
+mysqli_stmt_execute($stmt);
+printf("Delete: Affected %d rows\n", mysqli_stmt_affected_rows($stmt));
+mysqli_stmt_close($stmt);
+}
 ?>
 
 
