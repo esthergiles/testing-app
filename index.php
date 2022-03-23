@@ -34,7 +34,7 @@ if (mysqli_connect_errno())
 
 <head>
 	<meta charset="utf-8">
-	<title>Lion Snap App</title>
+	<title>Lion Snap App Test</title>
 	<link href="css/site.css" rel="stylesheet">
 </head>
 
